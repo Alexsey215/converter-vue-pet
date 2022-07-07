@@ -1,14 +1,10 @@
 import { createStore } from 'vuex'
+import { currenciesModule } from '@/store/currenciesModule'
 
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+
   modules: {
+    currencies: currenciesModule
   }
 })
+
